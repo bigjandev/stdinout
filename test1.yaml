@@ -1,0 +1,13 @@
+input:
+  label: ""
+  stdin:
+    codec: lines
+pipeline:
+  threads: 1
+  processors:
+      - proc:
+          text: "csv1.csv,csv2.csv,csv3.csv"
+output:
+  label: ""
+  stdout:
+    codec: lines

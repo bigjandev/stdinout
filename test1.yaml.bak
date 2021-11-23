@@ -1,0 +1,17 @@
+input:
+  label: ""
+  stdin:
+    codec: lines
+pipeline:
+  threads: 1
+  processors:
+    - label: ""
+      proc:
+        count: 5
+        text: " test"
+output:
+  label: ""
+  stdout:
+    codec: lines
+
+    
